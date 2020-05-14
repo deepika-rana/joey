@@ -1,0 +1,143 @@
+body{
+	font-family: 'Martel', serif;
+	background-color: #fff;
+}a
+
+header{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	background-color:rgba(138,209,206,0.1);
+	box-sizing: border-box;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.7);
+}
+.logo{
+	color:rgba(109,16,188,0.7);
+	height: 60px;
+	font-size: 36px;
+	padding-top: 25px;
+	line-height:normal;
+	text-align: center;
+	box-sizing: border-box;
+	float: left;
+	font-weight: 700;
+	text-decoration: none;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: -webkit-linear-gradient(#6a14a3,#e62b69);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+nav{
+	float: right;
+	margin-right: 50px;
+}
+.clearfix{
+	clear: both;
+}
+
+.logo img{
+	width: 100px;
+	height: auto;
+	margin-left: 70px;
+
+}
+nav ul{
+	padding: 0;
+	display: flex;
+}
+nav ul li{
+	list-style:none;
+	vertical-align: middle;
+}
+nav ul li a{
+	display: inline-block;
+	margin: 10px 0;
+	padding: 10px 20px;
+	text-decoration: none;
+	color:#e62b69;
+	font-weight:550;
+
+}
+nav ul li a.navactive{
+	color:#584bb0;
+	transition: 0.5s;
+}
+nav ul li a:hover{
+	color:#9411cc;
+	transition: 0.5s;
+}
+.mainpage{
+	background: #fff;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+#logo-img{
+	margin-top: 50px;
+	margin-left: 150px;
+	border-radius: 50%;
+	width:300px;
+	height:300px;
+	border:20px solid rgba(110,33,157,0.3);
+}
+
+.round-icon{
+	float: right;
+	margin-right: 150px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+
+}
+.round-icon ul{
+	padding: 0;
+	display: flex;
+}
+.round-icon ul li{
+	list-style:none;
+	vertical-align: middle;
+}
+.round-icon ul li a{
+	display:block;
+	background:#fff;
+	width:auto;
+	text-align: center;
+	border:2px solid rgba(212,56,123,0.6);
+	font-size: 20px;
+	padding:20px 20px 20px 20px;
+	margin-left: 10px;
+	text-decoration: none;
+	border-radius: 15px 15px 15px 15px;
+}
+.round-icon ul li a:hover{
+	transition: 1ms;
+	background: linear-gradient(to left, #591981,#e53b84);
+	border:none;
+	color:white;
+}
+.round-icon	p{
+	margin-left: 10px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.gradient-text{
+	background: -webkit-linear-gradient(#6a14a3,#e62b69);
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+
+.lower-footer {
+	padding-top: 5px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+	color: #d4387b;
+	background:#fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
